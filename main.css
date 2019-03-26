@@ -1,0 +1,88 @@
+
+#main {
+    background-color: #E6DBD0;
+    margin: 0 80px;
+    overflow: hidden;
+
+}
+
+#header {
+    background-color: #5D4954;
+    margin: 0 80px;
+}
+
+.header-box {
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.header-list {
+    float: left;
+    margin: 0px 10px 0px 0px;
+    list-style-type: none;
+}
+
+#banner {
+    float: bottom;
+    background-color: #9DC0BC;
+    margin: 0px 80px;
+    padding: 30px 0px;
+
+}
+
+#nav-list {
+    
+}
+
+#nav-list-menu {
+    background-color: #585191;
+    overflow: hidden;
+    padding: 1px 0px;
+}
+
+.nav-list {
+    float: left;
+    list-style-type: none;
+    width: 0px 80px;
+}
+
+#trending-now {
+    background-color: #99907D;
+    overflow: hidden;
+    
+}
+
+.trending-post {
+    background-color: #4F359B;
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+}
+
+.food-matter-principal {
+    float: left;
+    background-color: #8ACB88;
+    width: 300px;
+    height: 300px;
+    padding: 0px 10px 0px 10px;
+    overflow: hidden;
+    margin: 10px 10px 10px 20px;
+}
+
+.food-matter {
+    background-color:  #8ACB88;
+    float: left;
+    width: 300px;
+    margin: 10px 10px 10px 10px;
+    height: 300px;
+
+}
+
+#most-popular {
+    float: left;
+    background-color: #8ACB88;
+    width: 300px;
+    height: 300px;
+    margin: 10px 20px 10px 10px;
+
+}
