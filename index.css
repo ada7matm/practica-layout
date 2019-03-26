@@ -1,0 +1,63 @@
+.banner {
+    
+    background-color: pink;
+    padding: 30px 0px 30px 0px;
+    
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    background-color: papayawhip; 
+    margin: auto;
+
+    
+}
+
+.nav-bar {
+    height: 60px;
+    background-color: lightskyblue;
+    border-top: 3px solid blueviolet;
+    
+}
+
+.slide {
+    height: 450px;
+    background-color: cornsilk;
+    margin-top: 10px;
+}
+.content{
+    width: 1100px;
+    height: 700px;
+    background-color: peachpuff;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.main{ 
+    width: 650px;
+    height: 200px;
+    background-color: powderblue;
+    margin: 50px 50px 50px 50px;
+    float: left;
+}
+.aside{
+    width: 300px;
+    height: 200px;
+    background-color: lightgreen;
+    margin: 50px 50px 50px 0px;
+   
+        float: left;
+}
+ .news-medium{
+    width: 300px; 
+    height: 450px;
+    background-color: teal;
+    margin: 40px;
+/* }
+para comentar es ctrl k c*/ */
+.footer {
+    height: 200px;
+
+    background-color: lightcyan;
+}
