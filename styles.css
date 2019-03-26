@@ -1,0 +1,67 @@
+header {
+    background-color: beige;
+}
+.pagina {
+    width: 1500px;
+}
+nav {
+    margin-top: 10px;
+}
+.logo {
+    background-color: #000000;
+    width: 905px;
+    height: 47px;
+    margin: 0 auto;
+}
+.redes {
+    display: inline-block;
+}
+.redes {
+    background-color: blue;
+    width: 100px;
+    height: 47px;
+}
+.menu {
+    background-color: gray;
+    width: 400px;
+    height: 47px;
+    margin: 0 auto;
+}
+.buscador {
+    background-color: pink;
+    width: 100px;
+    height: 47px;
+    float: right;
+}
+.menu-center {
+    width: 1270px;
+    display: inline-block;
+}
+.size-1 {
+    width: 1450px;
+    margin: 0 auto;
+}
+.banner {
+    background-color: lightskyblue;
+    height: 472px;
+}
+.news-1 {
+    background-color: lightgreen;
+    margin-top: 10px;
+}
+.box-1 {
+    width: 250px;
+    height: 180px;
+    background-color: darkgreen;
+    display: inline-block;
+    margin-left: 88px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.size-2 {
+    width: 1300px;
+}
+.news-2 {
+    width: 900px;
+    
+}
