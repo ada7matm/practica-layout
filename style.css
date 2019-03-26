@@ -39,6 +39,7 @@ nav {
 .banner {
     background-color: lightblue;
     height: 462px;
+    margin-bottom: 10px;
 }
 .size-1 {
     width: 1200px;
@@ -47,6 +48,7 @@ nav {
 .news-1 {
     background-color: lightgreen;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .box-1 {
     width: 200px;
@@ -55,15 +57,72 @@ nav {
     display: inline-block;
     margin-left: 70px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .size-2 {
     width: 1000px;
+    /* background-color: gray; */
+    margin: 0 auto;
+
 }
 .news-2 {
     width: 700px;
+    display: inline-block;
 }
 .box-2 {
-
+    background-color: yellow;
+    width: 620px;
+    height: 400px;
+    margin-bottom: 10px;
 }
-
-
+.aside-1 {
+    background-color: orange;
+    width: 300px;
+    height: 810px;
+    float: right;
+}
+.box-3, .box-4 {
+    background-color: purple;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.box-4 {
+    margin-left: 40px;
+}
+.column-1, .column-2 {
+    display: inline-block;
+}
+.column-2 {
+    width: 390px;
+}
+.column-3 {
+    float: right;
+}
+.reviews {
+    background-color: #312d2d;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.box-5 {
+    background-color: #fc003f;
+    width: 260px;
+    height: 140px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.reviews-box {
+    margin-left: 230px;
+}
+.more {
+    background-color: aqua;
+    width: 1000px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: black;
+    height: 300px;
+}
