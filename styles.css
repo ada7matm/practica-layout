@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header, #nav-bar, #slide-imgs{
+    width: 100%;
+}
+header{
+    height: 219px;
+    background-color: #0000ff;
+}
+#nav-bar{
+    height: 72px;
+    background-color: #2121a8
+}
+#slide-imgs{
+    height: 409px;
+    background-color: aquamarine;
+}
+.center{
+    width: 90%;
+    margin: 0 auto;
+}
+main{
+    width: 75%;
+    height: 3000px;
+    background-color: turquoise;
+    float: left;
+}
+aside{
+    width: 25%;
+    height: 3000px;
+    background-color: rgb(17, 148, 135);
+    float: left;
+}
+#section1{
+    width: 100%;
+    height: 30%;
+    background-color: #2630b3;
+    margin-top: 4%;
+}
+#section2{
+    width: 100%;
+    height: 67%;
+    background-color: #2630b3;
+    margin: 3% 0;
+    padding-top: 1%;
+}
+.art1{
+    float: left;
+    background-color: cornflowerblue;
+    margin: 2%;
+    width: 46%;
+    height: 50%;
+}
+
+.related{
+    width: 46%;
+    height: 17%;
+    margin: 1% 2%;
+    background-color: cornflowerblue;
+    float: left;
+
+}
+.latest-art{
+    width: 90%;
+    height: 165px;
+    margin: 4%;
+    background-color: #3878f0;
+}
+#about-me{
+    width: 90%;
+    height: 15%;
+    margin-top: 33.67px;
+    margin-left: 5%;
+    background-color: #00ffaa;
+}
+#stay-in-touch{
+    width: 90%;
+    height: 10%;
+    margin: 5%;
+    background-color: #07d892;
+}
+#trending{
+    width: 90%;
+    height: 20%;
+    margin: 5%;
+    background-color: #08c586;
+}
+#most-recent{
+    width: 90%;
+    height: 20%;
+    margin: 5%;
+    background-color: #08b67c;
+}
+#ad{
+    width: 90%;
+    height: 10%;
+    margin: 4%;
+    background-color: #0ca06f;
+}
+#popular{
+    width: 90%;
+    height: 20%;
+    margin: 5%;
+    background-color: #088058;
+}
+#instagram{
+    clear: both;
+    width: 100%;
+    height: 210px;
+    background-color: darkblue;
+}
+#contact{
+    width: 100%;
+    height: 380px;
+    background-color: #1a1ac2;
+    
+}
+footer{
+    width: 100%;
+    height: 36px;
+    background-color: #2f2fec;
+    margin: 0;
+    padding: 0
+}
