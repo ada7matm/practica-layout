@@ -4,13 +4,15 @@ header {
 .pagina {
     width: 1300px;
     margin: 0 auto;
+    background-color: #f6f6f6;
 }
 .logo {
-    background-color: black;
-    width: 905px;
+    /* background-color: black; */
+    width: 200px;
     height: 47px;
     margin: 0 auto;
 }
+
 nav {
     margin-top: 10px;
 }
@@ -38,10 +40,11 @@ nav {
     float: right;
 }
 .banner {
-    background-color: lightblue;
+    background-image: url(https://s3.amazonaws.com/prod-media.gameinformer.com/styles/full/s3/2019/03/05/7f568964/dg_wt_screens-1-1.jpg);
     height: 462px;
     margin-bottom: 10px;
 }
+
 .size-1 {
     width: 1200px;
     margin: 0 auto;
@@ -129,4 +132,42 @@ nav {
 footer {
     background-color: black;
     height: 300px;
+}
+.title {
+    text-align: center;
+    font-family: "Fira Sans", sans-serif;
+}
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
+h3 {
+    color: white;
+    text-align: center;
+    font-family: "Unica One", cursive;
+    font-size: 16px;
+}
+.square {
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 89px);
+}
+.square-2 {
+    height: 462px;
+    margin: 0 auto;
+    position: relative;
+}
+.parrafo-1 {
+    text-align: center;
+    font-family: "Faustina", serif;
+}
+.link-2 {
+    text-decoration: none;
+    color: blue;
+    font-family: "Unica One", cursive;
 }
