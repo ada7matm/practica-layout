@@ -23,34 +23,100 @@
 .content {
         width: 1100px;
         background-color:lightgray;
-        height: 400px;
-        margin: 50px auto
+        margin: 0px 175px;
+                
 }
 
 footer {
     background-color: black;
     height: 200px;
+    clear: both;
+    overflow: hidden;    
 }
 
 main {
-    height: 100px;
+    width: 700px;
     background-color:lightpink;
     float: left;
     }
 
 aside {
     width: 300px;
-    height: 100px;
-    background-color:lightgoldenrodyellow;
+    height: 2000px;
+    background-color: lightsalmon;
     float: left;
-    margin: 50px 50px 50px 0px;
-
+    margin: 0px;
 }
 
 .newsmedium {
     width: 300px;
-    height: 500px;
+    height: 400px;
     background-color: blanchedalmond; 
     margin-right: 50px;
+    margin-bottom: 50px;
     float: left;
 }
+
+.newssmall {
+    width: 300px;
+    height: 200px;
+    background-color: lightgreen; 
+    margin-right: 50px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.newsbig {
+    width: 650px;
+    height: 250px;
+    background-color: lightskyblue; 
+    margin-right: 50px;
+    margin-bottom: 50px;
+    clear: both;
+    overflow: hidden; 
+}
+
+.profile {
+    width: 300px;
+    height: 400px;
+    background-color:lightsteelblue; 
+    margin-bottom: 50px;
+    clear: both;
+    overflow: hidden; 
+       
+}
+
+.socialmedia {
+    width: 300px;
+    height: 200px;
+    background-color:lightcyan; 
+    margin-bottom: 50px;
+    
+}
+
+.viewmore {
+    width: 300px;
+    height: 400px;
+    background-color: lightyellow; 
+    margin-bottom: 50px;
+  }
+
+.mostrecent {
+    width: 300px;
+    height: 400px;
+    background-color: lightgrey; 
+    margin-bottom: 50px;
+}
+
+.add {
+    height: 250px;
+    width: 300px;
+    background-color: black;
+    margin-bottom: 50px;
+}
+.categories {
+        width: 300px;
+        height: 350px;
+        background-color: lightgrey; 
+        margin-bottom: 50px;
+    }
