@@ -1,0 +1,153 @@
+.pagina {
+    width: 1300px;
+    margin: 0 auto;
+
+}
+
+header {
+    background-color:beige;
+}
+
+.logo {
+    background-color:black;
+    width: 905px;
+    height: 47px;
+    margin: 0 auto;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.redes {
+    display:inline-block;
+}
+
+.redes {
+    background-color:blue;
+    width: 100px;
+    height: 47px;
+}
+
+.menu-center {
+    width: 1090px;
+    display:inline-block
+}
+
+.menu {
+    background-color:gray;
+    width: 300px;
+    height: 47px;
+    margin: 0 auto;
+
+}
+
+.buscador {
+    background-color:pink;
+    width: 100px;
+    height: 47px;
+    float: right;
+}
+
+.banner {
+    width: 1200px;
+    height: 472px;
+    background-color:lightblue;
+    margin-top: 10px;
+}
+
+.size-1 {
+    width: 1200px;
+    margin: 0 auto; 
+
+}
+
+.news-1 {
+    background-color:lightgreen; 
+}
+
+.box-1 {
+    width: 200px;
+    height: 150px;
+    background-color:darkgreen;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 70px;
+
+}
+
+.size-2 {
+    width: 1000px;
+    margin: 0 auto;    
+}
+
+.news-2 {
+    width: 700px;
+    display:inline-block;
+}
+
+.box-2 {
+    width: 620px;
+    height: 400px;
+    background-color: yellow;
+    margin-top: 20px;
+}
+
+.aside-1 {
+    width: 300px;
+    height: 810px;
+    background-color: orange;
+    float: right;
+    margin-top: 20px
+}
+
+.box-3 {
+    width: 300px;
+    height: 250px;
+    background-color:purple;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.column-1 {
+    float: right;
+    margin-right: 20px;
+}
+
+.column-2 {
+    float: right;
+    margin-right: 20px;
+}
+
+.column-3 {
+    float: right;
+    margin-right: 20px;
+}
+
+.reviews {
+    background-color:black;
+    height: 400px;
+    clear: both;
+}
+
+.box-4 {
+    width: 300px;
+    height: 200px;
+    background-color:pink;
+    display:inline-block; 
+    margin-top: 100px;
+    margin-left:70px;
+}
+
+.box-5 {
+    clear: both;
+    background-color:lightcoral;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color:black;
+    height: 300px; 
+
+}
