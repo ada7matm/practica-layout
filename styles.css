@@ -1,3 +1,5 @@
+/*/Mock up/*/ 
+
 .banner {
     background-color: lightblue;
     padding: 50px 0px
@@ -21,9 +23,10 @@
 }       
 
 .content {
-        width: 1100px;
+        width: 1000px;
         background-color:lightgray;
-        margin: 0px 175px;
+        margin: 0px auto;
+        overflow: hidden; 
                 
 }
 
@@ -31,7 +34,7 @@ footer {
     background-color: black;
     height: 200px;
     clear: both;
-    overflow: hidden;    
+       
 }
 
 main {
@@ -46,6 +49,7 @@ aside {
     background-color: lightsalmon;
     float: left;
     margin: 0px;
+    height: 100%
 }
 
 .newsmedium {
@@ -120,3 +124,56 @@ aside {
         background-color: lightgrey; 
         margin-bottom: 50px;
     }
+
+    /*/Diseño interno/*/ 
+
+      /*/Content-main/*/
+      
+    h3 {
+        font-family: 'Merriweather', serif;
+        font-size: 20px;
+        line-height: 25px;
+        margin: 6px;
+    }
+
+    .author {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 11px;
+        margin-bottom: 7px;
+        display: inline-block;
+        font-weight: 900;
+        margin: 4px 4px 4px 6px;
+    }
+
+    .date {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 11px;
+        margin-bottom: 7px;
+        display: inline-block;
+        margin: 4px 4px 4px 6px;    
+    }
+
+    .volanta {
+        height: 23px;
+        width: 90px;
+        font-size: 14px;
+        color: white;
+        line-height: 21px;
+        background-color: grey;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        margin: 6px;
+   }
+
+   .bajada {
+       font-size: 12px; 
+       font-family: 'Merriweather', serif;
+       line-height: 20px;
+       margin: 6px;
+       text-align: left; 
+   }
+
+   .imagennews {
+       width: 300px;
+       margin: 4px 0
+   }
