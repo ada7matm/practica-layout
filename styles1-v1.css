@@ -82,32 +82,32 @@ nav {
     height: 810px;
     float: right;
 }
-.box-3 {
+.box-3, .box-4 {
     background-color: purple;
     width: 300px;
     height: 250px;
     margin-bottom: 10px;
 }
+.box-4 {
+    margin-left: 40px;
+}
 .column-1 {
-    float: right;
-    margin-right: 25px;
+    display: inline-block;
 } 
+
 .column-2 {
-    float: right;
-    margin-right: 25px;
-} 
+    width: 390px;
+    display: inline-block;
+}
 .column-3 {
     float: right;
-    margin-right: 25px;
 }
-
 .reviews {
     background-color: #312d2d;
     height: 300px;
     margin-bottom: 10px;
-    clear: both;
 }
-.box-4 {
+.box-5 {
     background-color: #fc003f;
     width: 260px;
     height: 140px;
@@ -124,7 +124,6 @@ nav {
     width: 1000px;
     height: 40px;
     margin-bottom: 20px;
-    clear: both;
 }
 footer {
     background-color: black;
