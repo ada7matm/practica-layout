@@ -1,0 +1,94 @@
+.banner {
+    background-color:rgb(235, 220, 225);
+    padding:50px 0;
+    height:150px;
+
+}
+.techno {
+    height:200px;
+    width:220px;
+    border-radius:50%;
+    margin:-24px 550px;
+}
+.navegacion {
+    height: 50px;
+    background-color:black;
+}
+.slide {
+    background-color:rgb(97, 6, 97);
+    height:50px;
+    border: double 12px rgb(133, 226, 26);
+}
+.content {
+    width: 1350px;
+    background-color: rgb(128, 61, 111);
+    height: 630px;
+    margin: 25px  auto;
+}
+footer {
+    background-color: rgb(104, 8, 40);
+   height:100px;
+
+}
+main {
+    background-color:rgb(235, 239, 243);
+    width:800px;
+    height:590px;
+    float: left;
+    margin: 25px;
+   
+}
+aside {
+    background-color:rgb(240, 233, 241);
+    width:400px;
+    height: 590px;
+    float: left;
+    margin: 25px 25px 25px 0;
+}
+.news-medium {
+    background-color:pink;
+    width:350px;
+    height:180px;
+    display:inline-block;
+    margin: 5px 22px;
+    vertical-align: top;
+}
+  
+.news-small {
+    background-color:pink;
+    width:350px;
+    height:150px;
+    display: inline-block;
+    margin: 5px 22px;
+    vertical-align: top;
+   
+   
+}
+.news-large {
+    background-color:pink;
+    width:350px;
+    height:180px;
+    display:inline-block;
+    margin: 5px 22px;
+    vertical-align: top;
+}
+#photo {
+    border-radius:50%;
+    margin:5px 69px;
+    vertical-align: top;
+   
+}
+.options {
+    background-color:pink;
+    width:350px;
+    height:75px;
+    margin:5px 22px;
+    vertical-align: top;
+
+}
+a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
