@@ -37,7 +37,7 @@
 }
 footer {
     background-color: rgb(104, 8, 40);
-   height:300px;
+   height:350px;
 
 }
 main {
@@ -136,4 +136,13 @@ a {
 }
 .descript {
     text-align: center;
+}
+.color-text {
+    color:rgb(17, 15, 170);
+}
+.icon {
+    height:35px;
+    width:42px;
+    border-radius:50%;
+    margin:10px 133px;
 }
