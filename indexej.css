@@ -10,6 +10,16 @@
     border-radius:50%;
     margin:-24px 550px;
 }
+.techno2{
+    height:119px;
+    width:1327px;
+    margin: -43px -1px;
+}
+.techno3{
+    height:124px;
+    width:1327px;
+    margin: 39px -1px;
+}
 .navegacion {
     height: 50px;
     background-color:black;
@@ -27,7 +37,7 @@
 }
 footer {
     background-color: rgb(104, 8, 40);
-   height:100px;
+   height:300px;
 
 }
 main {
@@ -86,9 +96,44 @@ aside {
     vertical-align: top;
 
 }
+.redes {
+    background-color:pink;
+    width:350px;
+    height:75px;
+    margin:5px 22px;
+    vertical-align: top;
+    font-family: 'Righteous', cursive;
+
+}
 a {
     color:black;
     text-decoration: none;
     font-weight: bold;
 }
+.musicos {
+    float:left;
+    color:white;
+    margin:30px 100px;
+    font-weight: bold;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.fotos {
+    float: left;
+    color: white;
+    margin:30px 100px;
+    font-weight: bold;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.cursiva {
+    font-family: 'Playfair Display SC', serif;
+}
 
+.piefoto {
+    height:200px;
+    width:220px;
+    border-radius:50%;
+    margin:-5px 550px;
+}
+.descript {
+    text-align: center;
+}
