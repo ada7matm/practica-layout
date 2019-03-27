@@ -1,0 +1,97 @@
+#header {
+    background-color: burlywood;
+    height: 219.63px;
+}
+
+#nav {
+    height: 72px;
+    background-color: #eccbc7;
+}
+
+#slide {
+    height: 409px;
+    background-color: cornsilk;
+}
+
+#contenedor {
+    width: 85%;
+    margin: 0 auto;
+}
+
+main {
+    background-color: burlywood;
+    width: 66.6%;
+    height: 3000px;
+    float: left;
+}
+
+#section1 {
+    background-color: cornsilk;
+    height: 23%;
+    margin-top: 2%;
+}
+
+.article1 {
+    background-color: #c27a7a;
+    height: 50%;
+    width: 48%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.relac {
+    background-color: #c27a7a;
+    width: 48%;
+    height: 22%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#section2 {
+    background-color: cornsilk;
+    height: 75%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    overflow: hidden;
+}
+
+.article2 {
+    background-color: #c27a7a;
+    width: 97.3%;
+    height: 9.5%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+aside {
+    background-color: #eccbc7;
+    width: 33.3%;
+    height: 3000px;
+    float: left;
+}
+
+.info {
+    background-color: #c27a7a;
+    height: 15.67%;
+    width: 95%;
+    margin: 25px 8px;
+}
+
+#instagram {
+    background-color: cornsilk;
+    height: 210px;
+    width: 100%;
+    clear: both;
+}
+
+#contacto {
+    background-color: burlywood;
+    height: 380px;
+}
+
+footer {
+    background-color: #eccbc7;
+    height: 36px;
+}
