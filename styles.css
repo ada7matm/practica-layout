@@ -3,13 +3,14 @@ header {
 }
 .pagina {
     width: 1500px;
+    margin: 0 auto;
+    background-color: #f6f6f6;
 }
 nav {
     margin-top: 10px;
 }
 .logo {
-    background-color: #000000;
-    width: 905px;
+    width: 200px;
     height: 47px;
     margin: 0 auto;
 }
@@ -42,8 +43,11 @@ nav {
     margin: 0 auto;
 }
 .banner {
-    background-color: lightskyblue;
+    background-image: url(https://s3.amazonaws.com/prod-media.gameinformer.com/styles/full/s3/2019/03/05/7f568964/dg_wt_screens-1-1.jpg);
     height: 472px;
+    margin: 0 auto;
+
+
 }
 .news-1 {
     background-color: lightgreen;
@@ -60,8 +64,123 @@ nav {
 }
 .size-2 {
     width: 1300px;
+    margin: 0 auto;
 }
 .news-2 {
     width: 900px;
+    height: 1000px;
+    background-color: black;
+    display: inline-block;
+    margin-top: 10px;
+}
+.aside-1 {
+    width: 350px;
+    height: 1000px;
+    background-color: pink;
+    float: right;
+    margin-top: 10px;
+}
+.box-2 {
+    width: 800px;
+    height: 450px;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    margin-top: 31px;
+}
+
+.box-3 {
+    width: 350px;
+    height: 280px;
+    background-color: darkgreen;  
+    margin-top: 30px;
+}
+.column-1 {
+    float: right;
+    margin-right: 55px;
+    margin-bottom: 20px;
+}
+.column-2 {
+    float: right;
+    margin-right: 55px;
+    margin-bottom: 20px;
+}
+.column-3 {
+    float: right;
+    margin-right: 55px;
+    margin-bottom: 20px;
+}
+.banner-2 {
+    background-color: #bddbee;
+    height: 372px;
+    clear: both;
+    margin-top: 10px;
+}
+.box-4 {
+    background-color: whitesmoke;
+    display: inline-block;
+    width: 300px;
+    height: 190px;
+    margin: 20px;
+    margin-top: 90px;
+}
+.margin-box {
+    height: 200px;
+    margin-left: 250px;
+    clear: both;
+}
+.load-more {
+    margin-left: 85px;
+    width: 1160px;
+    clear: both;
+    height: 40px;
+    background-color: blue;
+}
+.footer {
+    margin-top: 10px;
+    clear: both;
+    height: 300px;
+    background-color: black;
+}
+.tittle-1 {
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
+.square {
+    width: 100px;
+    height: 35px;
+    background-color: blue; 
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 89px);
+    text-align: center;
+    color: white;
     
+}
+.square-2 {
+    height: 490px;
+    margin: 0 auto;
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Unica One', sans-serif;
+    line-height: 35px;
+}
+.parrafo-1 {
+    text-align: center;
+    color: grey;
+    font-family: 'Faustina', serif;
+}
+.link-2 {
+    font-family: "unica one", sans-serif;
+    color: blue;
+    text-decoration: none;
+}
+.banner-3 {
+    height: 472px;
+    margin: 0 auto;
+    background-color: goldenrod;
 }
