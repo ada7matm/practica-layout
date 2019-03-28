@@ -177,3 +177,15 @@ aside {
        width: 300px;
        margin: 4px 0
    }
+
+   .profileimage {
+    border-radius: 200px;
+    height: 50%;
+    margin: 10px 50px
+    
+    }
+    
+    .center {
+        text-align: center;
+    }
+    
