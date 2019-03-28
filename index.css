@@ -54,7 +54,7 @@ main{
 
 .perfil{
     width: 350px;
-    height: 200px;
+    height: 400px;
     background-color: lightslategray;
     margin: 0px;
     float: left;
@@ -67,8 +67,68 @@ main{
     background-color: teal;
     margin: 20px 30px 10px 20px;
     float: left;
+    
+}
+.about { 
+    height: 23px;
+    width: 90px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    line-height: 21px;
+    background-color: yellow;
+        text-align: center;
+    margin: 6px;
+
 }
 
+.volanta{
+    height: 23px;
+    width: 90px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    line-height: 21px;
+    background-color: grey;
+    text-align: center;
+    margin: 6px;
+    
+}
+.news1 {
+    width: 300px;
+    margin: 4px 0
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 6px;
+
+}
+.author {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin-bottom: 7px;
+    display: inline-block;
+    font-weight: 900;
+    margin: 4px 4px 4px 6px;
+}
+
+.bajada{
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    margin: 6px;
+    text-align: left;
+}
+
+.date {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin-bottom: 7px;
+    display: inline-block;
+    margin: 4px 4px 4px 6px;    
+}
 .news-small{
     width: 300px; 
     height: 100px;
@@ -89,9 +149,13 @@ main{
         background-color: lightsalmon;
         clear: both;
     }
-    
+
+
+
+    /*
+
     .logo-header {
         height: 100px;
         margin: 0;
      
-     }
+     } */
