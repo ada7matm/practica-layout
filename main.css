@@ -1,14 +1,22 @@
-
-#main {
-    background-color: #E6DBD0;
-    margin: 0 80px;
-    overflow: hidden;
+body {
+font-family: "Open Sans", sans-serif;    
 
 }
 
+.text-post {
+    font-size: 12px;
+}
+#main {
+    background-color: #FFFFFF;
+    overflow: hidden;   
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    }
+}
+
 #header {
-    background-color: #5D4954;
-    margin: 0 80px;
+    margin: 0 0.5%;
 }
 
 .header-box {
@@ -26,9 +34,7 @@
 
 #banner {
     float: bottom;
-    background-color: #9DC0BC;
-    margin: 0px 80px;
-    padding: 30px 0px;
+    margin: 2% 1%;
 
 }
 
@@ -37,57 +43,105 @@
 }
 
 #nav-list-menu {
-    background-color: #585191;
+    background-color: #222222;
     overflow: hidden;
-    padding: 1px 0px;
-    
+    color: white;
     padding-left: 5px;
+    height: 45px;
+    margin: 4px 0px 0px;
+    font-size: 13.4px;
 }
 
 .nav-list {
     float: left;
     list-style-type: none;
     width: 0px 80px;
+    margin: 0px 10px 0px 10px;
+    padding: 10px 0px;
+}
+
+#trending-now-post {
+    background-image: cover;
 }
 
 #trending-now {
-    background-color: #99907D;
     overflow: hidden;
+    margin: 0px auto;
 }
 
 #trending-h2 {
     padding-left: 5px;
+    text-transform: uppercase;
+    background-color: #E86828;
+    width: 150px;
+    margin: 15px 13px;
+    padding: 5px 0px 5px 12px;
+}
+
+#trending-p {
+    float: right;
+    width: 500px;
+    clear: right;
+
+}
+.trending-post {
+    float: left;
+    width: 350px;
+    height: 420px;
 }
 
 #food-matter-section {
+    height: auto;
 }
 
-.trending-post {
-    background-color: #4F359B;
-    display: inline-block;
-    width: 350px;
-    height: 350px;
+.title-food {
+    float: right;
 
 }
 
+.genre-post {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+.date-post {
+    color: #9C9C9C;
+    font-size: 10px;
+}
 
 .food-matter-principal {
     float: left;
-    background-color: #8ACB88;
     width: 320px;
-    height: 300px;
-    padding: 0px 10px 0px 10px;
+    height: auto;
     overflow: hidden;
-    margin: 10px 10px 10px 10px;
+    margin: 30px 10px 50px 10px;
+}
+
+.h2-foodmatter {
+    border-bottom: 2.5px solid #E38D56;
+    padding-bottom: 5px;
 }
 
 .food-matter {
-    background-color:  #8ACB88;
     float: left;
     width: 320px;
-    margin: 10px 10px 10px 10px;
-    height: 300px;
+    height: auto;
+    margin: 30px 10px 50px 10px;
+    padding: 73px 0px 0px;
 
+}
+
+.food-matter-list {
+    margin-bottom: 10px;
+
+}
+
+
+
+.post-text {
+    float: right;
+    margin-top: -20px;
 }
 
 #most-popular {
@@ -102,26 +156,39 @@
 #travel-guide {
  width: 680px;
  height: 300px;
- background-color: #2b2118;
  margin: 5px 10px 10px;
  overflow: hidden;
 }
+
+#h2-travelguide {
+    border-bottom: 2.5px solid #2479D5;
+}
+
 
 
 .travel-guide-post {
     width: 200px;
     height: 180px;
-    background-color: #6F1A07;
     float: left;
     margin: 0px 10px;
 
 }
 
+.footer-travel-guide {
+    margin-top: -4px;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
 #healthy-column {
-    background-color: #AA6DA3;
     width: 680px;
     height: 350px;
     margin: 0px 10px;
+}
+
+#h2-healthylife {
+    border-bottom: 2.5px solid #42D524;
 }
 
 .healthy-life {
