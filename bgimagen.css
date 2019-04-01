@@ -1,0 +1,17 @@
+#circulo {
+    border-radius: 50%;
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+}
+
+.cuadrado {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+
+.fixed {
+    position: fixed;
+    right: 150px;
+}

@@ -1,16 +1,77 @@
+body {
+    margin: 0px;
+}
+
 #header {
-    background-color: burlywood;
+    background-color: rgb(255, 255, 255);
     height: 219.63px;
+    text-align: center;
+}
+
+.bookclub {
+    width: 214px;
+    height: 167.63px;
+    padding: 26px 0px;
 }
 
 #nav {
-    height: 72px;
-    background-color: #eccbc7;
+    height: 65px;
+    background-color: white;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    width: 100%;
+    /*position: fixed;*/
+}
+
+#menu-list {
+    list-style: none;
+    text-align: center;
+}
+
+.menu-list-item {
+    display: inline-block;
+    margin: 10px 20px;
+    font-family: "Droid Serif";
+    font-size: 14.3px;
+    font-weight: 500;
+    transform: rotateX(5deg)
 }
 
 #slide {
-    height: 409px;
+    height: 550px;
     background-color: cornsilk;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.slide-image {
+    height: 100%;
+    width: 80%;
+    background-image: url(https://demo.tagdiv.com/newspaper_book_club/wp-content/uploads/2016/09/25-1024x684.jpg);
+    background-size: cover;
+    background-position-y: 60%;
+    margin: 0 auto;
+}
+
+.textoimagen {
+    text-align: left;
+    margin-left: 25px;
+    line-height: 20px;
+    transform: translate(0, 350px);
+    color: white;
+}
+
+#slide-date {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+#slide-title {
+    font-family: 'Droid Serif';
+    line-height: 22px;
+    font-weight: 400;
 }
 
 #contenedor {
@@ -19,79 +80,401 @@
 }
 
 main {
-    background-color: burlywood;
+    background-color: white;
     width: 66.6%;
-    height: 3000px;
+    height: 3790px;
     float: left;
+    overflow: auto;
 }
 
 #section1 {
-    background-color: cornsilk;
-    height: 23%;
-    margin-top: 2%;
+    background-color: white;
+    height: 16%;
+    margin-top: 2%; 
 }
 
 .article1 {
-    background-color: #c27a7a;
-    height: 50%;
-    width: 48%;
+    background-color: white;
+    height: 423.84px;
+    width: 323.99px;
     float: left;
     margin-left: 10px;
     margin-top: 10px;
+    padding: 0 23px 0 0;
+}
+
+.secciones {
+    background-color: #505162;
+    display: inline-block;
+    color: white;
+    padding: 8px 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.cuerpo {
+    margin-top: 20px;
+}
+
+.art1-title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+.art1-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 1px;
+}
+
+.art1-span {
+    font-weight: 900;
+}
+
+.art1-body {
+    font-family: 'Droid Seif', serif;
+    font-size: 15px;
+    color: #777777;
+    margin: 9px 0px 0px 0px;
+    padding: 0;
+}
+
+#img-art1 {
+    width: 100%;
+    height: 160px;
 }
 
 .relac {
-    background-color: #c27a7a;
+    background-color: white;
     width: 48%;
-    height: 22%;
+    height: 12%;
     float: left;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.img-relac {
+    float: left;
+}
+
+.relac-text {
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.relac-date {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #AAAAAA;
 }
 
 #section2 {
-    background-color: cornsilk;
-    height: 75%;
+    background-color: white;
+    height: 2901.96px;
     margin-top: 4%;
-    margin-bottom: 2%;
-    overflow: hidden;
+    overflow: auto;
+    padding-top: 25px;
+}
+
+.latest {
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .article2 {
-    background-color: #c27a7a;
-    width: 97.3%;
-    height: 9.5%;
+    background-color: white;
+    width: 685.99px;
+    height: 235px;
     margin-left: 10px;
     margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#img-art2 {
+    width: 324px;
+    height: 235px;
+    float: left;
+}
+
+#texto-art2 {
+    margin-left: 345px;
+    padding-top: 0px;
+}
+
+.art2-subt, .art2-title, .art2-p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.art2-title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.art2-subt {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #AAAAAA
+}
+
+.art2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 900;
+    color: black;
+
+}
+
+.art2-p {
+    font-family: 'Droid Serif', serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #777777;
+    line-height: 20px;
 }
 
 aside {
-    background-color: #eccbc7;
+    background-color: white;
     width: 33.3%;
-    height: 3000px;
+    height: 2965px;
     float: left;
 }
 
 .info {
-    background-color: #c27a7a;
+    background-color: white;
     height: 15.67%;
     width: 95%;
+    margin: 22px 8px;
+}
+
+#aboutme {
+    height: 14.50%;
     margin: 25px 8px;
 }
 
+.aboutme-image {
+    height: 196px;
+    width: 196px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.aboutme-name {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.aboutme-p {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-size: 15px;
+    color: #555555;
+}
+
+#stayintouch {
+    height: 152px;
+}
+
+.sit-box {
+    height: 100px;
+    width: 97.3px;
+    box-sizing: border-box;
+    background-color: white;
+    float: left;
+    margin-left: 11px;
+    margin-top: 14px;
+}
+
+#trendingrn {
+    margin-top: 57px;
+    height: 397px;
+}
+
+#trn {
+    margin-bottom: 0px;
+}
+
+#trending-list {
+    list-style: none;
+    padding: 0px;
+}
+
+.trending-list-item {
+    margin-top: 21px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.trending-img {
+    float: left;
+}
+
+.trending-text {
+    float: left;
+    margin-left: 14px;
+}
+
+.trending-title {
+    margin: 0px;
+    font-family: 'Roboto Slab';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.trending-date {
+    margin-top: 4px;
+    font-family: 'Open Sans';
+    font-size: 11px;
+    color: #AAAAAA;
+    font-weight: 400;
+}
+
+/* #trending {
+    height: 400px;
+    margin-top: 65px; 
+} */
+
+#mostrecent {
+    height: 9.97%
+}
+
+.most-recent-list {
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+.most-recent-item {
+    list-style: none;
+    border-bottom: 1px dashed grey;
+    padding-top: 0px;
+    margin: 0 auto;
+}
+
+.last {
+    border-bottom: none;
+}
+
+.most-recent-link {
+    margin: 15px 0;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#publicidad {
+    height: 250px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#pop-cat {
+    height: 11.67%;
+}
+
+.categories-list {
+    padding-left: 10px;
+}
+
+.categories-list-items {
+    list-style: none;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+.category-item {
+    margin: 14px 0 0 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.category-span {
+    float: right;
+    margin-right: 20px;
+}
+
 #instagram {
-    background-color: cornsilk;
-    height: 210px;
+    background-color: white;
+    height: 222px;
     width: 100%;
     clear: both;
+    padding-top: 7px;
+    text-align: center;
+}
+
+#ig-p {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.ig-link {
+    font-weight: 900;
+    color: #976A41;
+}
+
+.imagenes-instagram {
+    width: 100%;
+}
+
+.instagram-img {
+    float: left;
+    height: 210.55px;
+    width: 210.55px;
+    margin: 0px;
 }
 
 #contacto {
-    background-color: burlywood;
+    background-color: #25262e;
     height: 380px;
+    text-align: center;
+}
+
+#contact-img {
+    margin-top: 60px;
+}
+
+#contact-text {
+    text-align: center;
 }
 
 footer {
     background-color: #eccbc7;
     height: 36px;
+}
+
+.footer-div {
+    margin: 10px;
+}
+
+#footerp {
+    float: left;
+}
+
+#footer-span {
+    float: right;
 }
