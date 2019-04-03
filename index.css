@@ -1,6 +1,6 @@
 .banner {
     
-    background-color: pink;
+    background-color: white;
     padding: 30px 0px 30px 0px;
     
 }
@@ -8,12 +8,20 @@
 .logo {
     height: 150px;
     width: 150px;
-    background-color: papayawhip; 
+    background-color:white; 
     margin: auto;
     
 
     
 }  
+.logo-header {
+    height: 167px;
+    margin: 0;
+    position: absolute;
+    float: left;
+    transform: translateX(-50px);
+ 
+ }
 .nav-bar {
     height: 60px;
     background-color: lightskyblue;
@@ -25,7 +33,15 @@
     height: 450px;
     background-color: cornsilk;
     margin-top: 10px;
+  
+  
 }
+.slider{
+    width: 1335px;
+    height: 549px;
+    position: abslute;
+}
+ 
 .content{
     width: 1100px;
     height: 1300px;
@@ -33,6 +49,7 @@
     margin: auto;
     margin-top: 50px;
     overflow: hidden;
+    padding: 30px;
 
 }
 
@@ -50,35 +67,38 @@ main{
     background-color: lightgreen;
     margin: 10px;
     float: left;
+   
 }
 
 .perfil{
-    width: 350px;
-    height: 400px;
-    background-color: lightslategray;
+    width: 196px;
+    height: 196px;
     margin: 0px;
     float: left;
+    margin: auto;
+    border-radius: 500px;
+    transform: translate(35px, 10px);
 
 }
 
  .news-medium{
     width: 300px; 
     height: 400px;
-    background-color: teal;
+    background-color: white;
     margin: 20px 30px 10px 20px;
     float: left;
     
 }
 .about { 
     height: 23px;
-    width: 90px;
+    width: 85px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: white;
     line-height: 21px;
-    background-color: yellow;
-        text-align: center;
+    background-color: grey;
     margin: 6px;
+    text-align: left;
 
 }
 
@@ -96,7 +116,11 @@ main{
 }
 .news1 {
     width: 300px;
-    margin: 4px 0
+    margin: auto;
+    float: left;
+
+    margin-bottom: 5%;
+    position: relative;
 }
 
 h3 {
@@ -117,9 +141,11 @@ h3 {
 
 .bajada{
     font-family: 'Merriweather', serif;
-    font-size: 14px;
+    font-size: 13px;
+    word-spacing: 1px;
     margin: 6px;
     text-align: left;
+    color: lightslategray;
 }
 
 .date {
@@ -152,10 +178,6 @@ h3 {
 
 
 
-    /*
+    
 
-    .logo-header {
-        height: 100px;
-        margin: 0;
-     
-     } */
+    
