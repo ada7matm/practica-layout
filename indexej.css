@@ -40,6 +40,7 @@ body {
     height: 50px;
     background-color:black;
 }
+
 .slide {
     background-color:rgb(97, 6, 97);
     height:50px;
@@ -132,6 +133,7 @@ a {
     margin:30px 100px;
     font-weight: bold;
     font-family: 'ZCOOL XiaoWei', serif;
+    
 }
 .fotos {
     float: left;
