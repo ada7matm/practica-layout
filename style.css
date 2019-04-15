@@ -1,0 +1,120 @@
+
+.body {
+    height: 3901px;
+    width: 1418px;
+    background-color: antiquewhite;
+}
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+.encabezado, main, .contenido-general, .columns {
+    margin: 0 auto;
+}
+.encabezado {
+    width: 1021px;
+}
+.links-superiores {
+    height: 27px;
+    width: 1021px;
+    background-color: #4792d400;
+}
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-weight: bold;
+}
+.titulo-pag {
+    height: 130px;
+    width: 1021px;
+    background-color: #224e7500;
+}
+h1 {
+    color: #8873ff;
+    font-size: 60px;
+    padding-left: 40px;
+    padding-top: 30px;
+    margin: 0px;
+    line-height: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    color: #000000;
+    font-size: 30px;
+    padding-left: 45px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.barra-navegacion {
+    height: 44px;
+    width: 1021px;
+    background-color: #113350;
+}
+.contenido-general {
+    width: 1418px;
+    height: 3901px;
+}
+.trending-now {
+    height: 77px;
+    width: 1020px;
+    background-color: #5e0101;
+}
+.img-principal {
+    height: 350px;
+    width: 1418px;
+}
+main {
+    width: 1021px;
+}
+.bloque-img {
+    height: 338px;
+    width: 336px;
+    background-color: #c93636;
+    float: left;
+}
+.img-center {
+    margin: 0px 6px;
+}
+.seccion-general {
+    height: 1018px;
+    width: 679px;
+    background-color: #566c80;
+    float: left;
+}
+.columns {
+    width: 1021px;
+    height: 1018px;
+}
+h4 {
+    font-size: 18px;
+}
+.titulos {
+    background-color: #113350;
+    font-family: "Open Sans";
+}
+.opciones {
+    background-color: #4793d4;
+}
+aside {
+    height: 1018px;
+    width: 339px;
+    background-color: #b1ac6a;
+    float: left;
+}
+.img-secundario {
+    height: 318px;
+}
+.img-bloque {
+    height: 220px;
+    width:  341px;
+    background-color: #504c18;
+   float: left;
+}
